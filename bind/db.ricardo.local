@@ -1,0 +1,27 @@
+;
+; BIND data for ricardo.local
+;
+$TTL	604800
+@	IN SOA	RST-USED.ricardo.local. root.localhost. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 3600 )		; Negative Cache TTL
+;
+@		IN	NS	RST-USED.ricardo.local.
+; Registros Host
+@		IN	A	192.168.3.207
+RST-USED	IN	A	192.168.3.207
+
+; Registros Alias
+
+daw201	IN	CNAME	RST-USED.ricardo.local.
+daw202	IN	CNAME	RST-USED.ricardo.local
+daw203	IN	CNAME	RST-USED.ricardo.local.
+daw204	IN	CNAME	RST-USED.ricardo.local.
+
+www.daw201	IN	CNAME	RST-USED.ricardo.local.
+www.daw202	IN	CNAME	RST-USED.ricardo.local.
+www.daw203	IN	CNAME	RST-USED.ricardo.local.
+www.daw204	IN	CNAME	RST-USED.ricardo.local.

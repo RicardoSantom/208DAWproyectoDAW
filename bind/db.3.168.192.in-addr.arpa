@@ -1,0 +1,16 @@
+;
+; BIND data for 3.168.192.in-addr.arpa
+;
+$TTL	604800
+@	IN SOA	RST-USED.ricardo.local. root.localhost. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 3600 )		; Negative Cache TTL
+;
+@		IN	NS	RST-USED.ricardo.local.
+
+;Registros Puntero
+207		IN	PTR	ricardo.local.
+207		IN	PTR	RST-USED.ricardo.local.
