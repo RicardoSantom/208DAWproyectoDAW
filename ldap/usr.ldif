@@ -1,0 +1,67 @@
+#dn: uid=Jefe1,ou=OU_Jefes,dc=ricardo,dc=local
+#objectClass: top
+#objectClass: posixAccount
+#objectClass: inetOrgPerson
+#objectClass: person
+#cn: Jefe
+#uid: Jefe1
+#ou:grupo
+#uidNumber: 2000
+#gidNumber: 10000
+#homeDirectory: /home/Jefe1
+#loginShell: /bin/bash
+#userPassword: {SSHA}YgJhlNSM5sPyMHCgdWLzsVOlRX5TEXY2
+#sn: uno
+#mail: Jefe.1@jefes.com
+#givenName: Jefe1
+#
+dn: uid=Jefe2,ou=OU_Jefes,dc=ricardo,dc=local
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: Jefe
+uid: Jefe2
+ou:grupo
+uidNumber: 2001
+gidNumber: 10000
+homeDirectory: /home/Jefe2
+loginShell: /bin/bash
+userPassword: {SSHA}YgJhlNSM5sPyMHCgdWLzsVOlRX5TEXY2
+sn: dos
+mail: Jefe.2@jefes.com
+givenName: Jefe2
+
+dn: uid=Currito,ou=OU_Curritos,dc=ricardo,dc=local
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: Currito
+uid: Currito1
+ou:grupo
+uidNumber: 2002
+gidNumber: 10001
+homeDirectory: /home/Currito1
+loginShell: /bin/bash
+userPassword: {SSHA}YgJhlNSM5sPyMHCgdWLzsVOlRX5TEXY2
+sn: uno
+mail: Currito.1@curritos.com
+givenName: Currito1
+
+dn: uid=Currito2,ou=OU_Curritos,dc=ricardo,dc=local
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn: Currito
+uid: Currito1
+ou:grupo
+uidNumber: 2003
+gidNumber: 10001
+homeDirectory: /home/Currito2
+loginShell: /bin/bash
+userPassword: {SSHA}YgJhlNSM5sPyMHCgdWLzsVOlRX5TEXY2
+sn: dos
+mail: Currito.2@curritos.com
+givenName: Currito2

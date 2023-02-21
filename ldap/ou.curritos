@@ -1,0 +1,4 @@
+dn: ou=OU_Curritos,dc=ricardo,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: OU_Curritos
