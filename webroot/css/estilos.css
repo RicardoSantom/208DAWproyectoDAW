@@ -81,7 +81,7 @@ hr {
     color: #FFC9B5;
     font-family: 'FontaWesome';
     content: '\f08c';
-     font-size: 2em;
+    font-size: 2em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -104,7 +104,8 @@ hr {
     padding-top: 10px;
 }
 footer p{
-    padding-top: 15px;}
+    padding-top: 15px;
+}
 footer{
     min-height: 50px;
     max-height: 150px;
@@ -123,7 +124,7 @@ footer{
     justify-content: center;
     color:#F5FEFF;
     background: rgb(2,0,40);
-background: linear-gradient(90deg, rgba(2,0,40,1) 0%, rgba(81,109,153,1) 100%, rgba(251,250,248,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,40,1) 0%, rgba(81,109,153,1) 100%, rgba(251,250,248,1) 100%);
 }
 #enlacePrincipal,#enlaceSecundario{
     color: #fbfaf8;
