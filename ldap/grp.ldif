@@ -1,0 +1,11 @@
+dn: cn=G_Jefes,ou=OU_Jefes,dc=ricardo,dc=local
+objectClass: top
+objectClass: posixGroup
+gidNumber: 10000
+cn: G_Jefe
+
+dn: cn=G_Curritos,ou=OU_Curritos,dc=ricardo,dc=local
+objectClass: top
+objectClass: posixGroup
+gidNumber: 10001
+cn: G_Curritos
